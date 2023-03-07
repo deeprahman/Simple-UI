@@ -1,6 +1,16 @@
 $primary:#F5F5F5;
-$secondary: #377DFF; // Buttons
+$secondary: #24AAE1; // Buttons
 $success: #11D000;
 $info : #24AAE1;
-$warning: #FFF300;
+$warning: #E2E9F6; // Darker primary (When hover)
 $danger: #ED4C78;
+$dark: #6299FD;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1600px
+);
+

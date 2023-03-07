@@ -1,0 +1,39 @@
+.publishing-options {
+    .publish-card {
+        border: 1px solid white;
+        transition-property: border;
+        transition-duration: .1s;
+        transition-delay: 0s;
+    }
+
+    a {
+        visibility: hidden;
+        transition-property: visibility;
+        transition-duration: .01s;
+        transition-delay: .01s;
+    }
+
+    .publish-card:hover {
+        border: 2px solid $success;
+        background-color: $warning;
+
+
+        a {
+            visibility: visible;
+        }
+    }
+}
+
+#site-stat{
+
+    .site-stat__credits{
+        position:relative;
+    }
+    
+    .site-stat__credits-dropdown{
+        transition:transform 1s;
+        position:absolute;
+        top:0;
+        right:10px;
+    }
+}

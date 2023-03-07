@@ -7,6 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-   <%= require('html-loader!./views/client-page/_links.html').default %> 
+    <main class="bg-primary">
+        <section id="more-links bg-primary">
+
+            <%= require('html-loader!./views/client-page/_links.html').default %> 
+        </section>
+        <section class="publishing-options">
+            <%= require('html-loader!./views/client-page/_publiching-options.html').default %> 
+
+        </section>
+        <section id="partner-websites">
+            <%= require('html-loader!./views/client-page/_partner-websites.html').default %> 
+        </section>
+        <section id="site-stat">
+            <%= require('html-loader!./views/client-page/_site-numbers.html').default %>
+            <%= require('html-loader!./views/client-page/_publishing-details.html').default %>
+        </section>
+    </main>
 </body>
 </html>

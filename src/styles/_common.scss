@@ -1,0 +1,24 @@
+body {
+    background-color:$primary;
+}
+
+.text-gray{
+    color: $gray-600;
+}
+
+.text-theme{
+    color:#8A96A3;
+}
+
+.btn-color-theme{
+    background-color:#377DFF;
+    color: white;
+}
+
+.border-decoration-theme{
+    border-right: 1px solid #8A96A3; 
+}
+
+.flip{
+    transform: rotate(540deg);
+}
