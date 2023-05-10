@@ -56,7 +56,7 @@
                             <div class="d-flex flex-column site-mini-summary">
                                 <div id="site-thumbnail">
 
-                                    <img class="img-fluid" src="dist/img/image 5.jpg" alt="">
+                                    <img class="img-fluid" src="<?php echo get_theme_mod('simple_image');?>" alt="">
                                 </div>
                                 <div id="site-stat" class="d-flex flex-row align-items-center">
                                     <div id="publishing-options__fig-1" class=""></div>

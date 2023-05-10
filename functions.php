@@ -1,5 +1,6 @@
 <?php 
 
+require_once get_template_directory() . '/inc/class-theme-customizer.php';
   // register webpack compiled js and css with theme
   function enqueue_webpack_scripts() {
            $cssFileURI = get_template_directory_uri() . '/dist/css/main.min.css';
@@ -11,3 +12,8 @@
 
   }
   add_action( 'wp_enqueue_scripts', 'enqueue_webpack_scripts' );
+
+  add_action('admin_init', 'themeCustomizer');
+  function themeCustomizer(){
+    
+  }
